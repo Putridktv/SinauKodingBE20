@@ -6,10 +6,11 @@ public class Tugas2 {
                 if (x % j == 0)
                     i++;
             }
-            if (i == 2)
+            if (i == 2) {
                 System.out.println(x + " Bilangan Prima ");
-            else
+            } else {
                 System.out.println(x + " Bukan Bilangan Prima ");
+            }
         }
     }
 }
